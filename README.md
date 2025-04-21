@@ -44,5 +44,34 @@ This ongoing project simulates and processes real-time vehicle diagnostics data 
 
 ---
 
-📌 **Note:** This project is being actively developed and will be updated regularly. Feel free to ⭐ the repo and follow along.
+📌 **Note:** This project is being actively developed and will be updated regularly. Feel free to ⭐ the repo and follow along. 
+
+---
+---
+
+## UPDATE_1 : ( 💻 Project Status: In Progress )
+
+Key components have been set up and tested:
+
+Synthetic Data Generator: Python script simulating vehicle data (e.g., engine temp, RPM, error codes).
+
+Apache Kafka: Dockerized Kafka for streaming data.
+
+Spark Structured Streaming: Ingesting and processing data with PySpark, saving results to local files (parquet).
+
+ML Model: Random Forest Classifier trained to predict vehicle failures with 98.67% accuracy on a small test dataset.
+
+Visualization: Basic failure predictions visualized using Plotly (Power BI integration upcoming).
+
+<img width="1432" alt="image" src="https://github.com/user-attachments/assets/ca0ad26d-62d5-46a5-a1a9-bd64fcd45e72" />
+
+<img width="1431" alt="image" src="https://github.com/user-attachments/assets/69abdcd0-1bbc-46b2-b4d4-3ea0b7f2a61c" />
+
+<img width="1431" alt="image" src="https://github.com/user-attachments/assets/9136149a-8da0-4246-9f26-4209cc42031e" />
+
+<img width="1434" alt="image" src="https://github.com/user-attachments/assets/63be861b-c076-4ad2-b8d3-1c45f42fe92a" />
+
+Note: The project is functional but still in progress. Final deployment and enhancements are underway!
+
+
 
