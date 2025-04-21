@@ -1,4 +1,4 @@
-# 🚗 Vehicle Diagnostics Pipeline (WIP)
+# 🚗 Vehicle Diagnostics Pipeline
 
 > Real-time vehicle health monitoring and failure prediction system using streaming data.
 
