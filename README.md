@@ -11,14 +11,14 @@ This ongoing project simulates and processes real-time vehicle diagnostics data 
 - **Apache Kafka** – Data ingestion (Docker, Bitnami images)
 - **Spark Streaming (PySpark)** – Real-time processing
 - **Databricks / Local Spark** – Data engineering and ML model deployment
-- **MinIO (S3-compatible)** – Object storage (data lake)
+- **MinIO (S3-compatible)/AWS S3** – Object storage (data lake)
 - **PostgreSQL** – Metadata and processed results storage
 - **Apache Airflow** – Orchestration of data pipelines
 - **Power BI / Plotly Dash** – Visualization of vehicle health & failure predictions
 - **ML Models** – Anomaly detection & failure prediction from diagnostics data
 
 ## 🧱 Planned Architecture
-[Kafka Producer] --> [Kafka Broker] --> [Spark Streaming (PySpark)] --> [MinIO Data Lake] --> [ML Model] --> [PostgreSQL] --> [Dashboard (Power BI / Dash)] ↘ [Airflow ETL Pipelines]
+[Kafka Producer] --> [Kafka Broker] --> [Spark Streaming (PySpark)] --> [MinIO Data Lake/AWS S3] --> [ML Model] --> [PostgreSQL] --> [Dashboard (Power BI / Dash)] ↘ [Airflow ETL Pipelines]
 
 
 ## 🚧 Current Status
